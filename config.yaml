@@ -1,0 +1,19 @@
+target_url: "http://localhost:3000/"
+max_depth: 2
+log_level: "INFO"
+browser:
+  headless: true
+  timeout: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+api:
+  patterns:
+    - "/api/"
+    - "/graphql"
+    - "/v1/"
+    - "/v2/"
+    - "/v3/"
+    - "/auth"
+    - "/swagger"
+output:
+  format: "json"
+  path: "reports/endpoints.json"
