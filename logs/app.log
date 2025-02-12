@@ -1,0 +1,2006 @@
+2025-02-12 17:55:48,576 - WDM - INFO - ====== WebDriver manager ======
+2025-02-12 17:55:51,065 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-12 17:55:51,088 - __main__ - ERROR - An error occurred: Failed to initialize browser: Could not reach host. Are you offline?
+2025-02-12 18:16:05,596 - WDM - INFO - ====== WebDriver manager ======
+2025-02-12 18:16:07,874 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-12 18:16:08,508 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-12 18:16:09,022 - WDM - INFO - Driver [C:\Users\cirex\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-12 18:16:13,779 - __main__ - INFO - Starting crawl process...
+2025-02-12 18:16:18,578 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/
+2025-02-12 18:16:21,255 - utils.form_handler - WARNING - Error populating field: 'element'
+2025-02-12 18:16:21,916 - utils.form_handler - INFO - Populated email field with mock data
+2025-02-12 18:16:21,918 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:16:25,004 - utils.form_handler - INFO - Form submitted via button click
+2025-02-12 18:16:25,017 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:16:27,170 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:16:29,149 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/
+2025-02-12 18:17:18,157 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:20,893 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:24,060 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:26,857 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:36,132 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:42,354 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:45,365 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:51,781 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:17:59,848 - modules.crawler - INFO - Found 2 forms on http://localhost:3000/checkout
+2025-02-12 18:18:01,885 - utils.form_handler - WARNING - Error populating field: 'element'
+2025-02-12 18:18:02,402 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:02,770 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:03,289 - utils.form_handler - INFO - Populated email field with mock data
+2025-02-12 18:18:03,643 - utils.form_handler - INFO - Populated tel field with mock data
+2025-02-12 18:18:03,986 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:04,025 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:04,069 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:04,104 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:04,108 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:18:04,335 - utils.form_handler - INFO - Form submitted via button click
+2025-02-12 18:18:04,336 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:18:06,375 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:12,681 - utils.form_handler - WARNING - Error populating field: 'element'
+2025-02-12 18:18:13,062 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:13,423 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:13,997 - utils.form_handler - INFO - Populated email field with mock data
+2025-02-12 18:18:14,480 - utils.form_handler - INFO - Populated tel field with mock data
+2025-02-12 18:18:15,924 - utils.form_handler - INFO - Populated text field with mock data
+2025-02-12 18:18:15,960 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:16,161 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:16,204 - utils.form_handler - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:16,210 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:18:17,562 - utils.form_handler - INFO - Form submitted via button click
+2025-02-12 18:18:17,569 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:18:19,596 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:19,602 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/checkout
+2025-02-12 18:18:45,795 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:48,063 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:50,364 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:53,644 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:18:56,758 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:19:35,477 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:20:44,817 - WDM - INFO - ====== WebDriver manager ======
+2025-02-12 18:20:47,177 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-12 18:20:49,436 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-12 18:20:50,269 - WDM - INFO - Driver [C:\Users\cirex\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-12 18:20:54,895 - __main__ - INFO - Starting crawl process...
+2025-02-12 18:21:01,763 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/
+2025-02-12 18:21:02,150 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:21:02,493 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:21:02,495 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:21:05,404 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:21:05,413 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:21:07,579 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:21:10,012 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/
+2025-02-12 18:22:01,020 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:04,632 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:07,090 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:09,485 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:17,520 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:23,567 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:26,107 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:28,402 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:31,752 - modules.crawler - INFO - Found 2 forms on http://localhost:3000/checkout
+2025-02-12 18:22:32,597 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:22:32,975 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:33,292 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:33,756 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:22:34,037 - modules.browser_automation - INFO - Populated tel field with mock data
+2025-02-12 18:22:34,304 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:34,325 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:34,362 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:34,392 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:34,397 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:22:34,622 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:22:34,623 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:22:36,664 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:42,442 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:22:42,889 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:43,637 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:44,340 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:22:45,059 - modules.browser_automation - INFO - Populated tel field with mock data
+2025-02-12 18:22:45,483 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:22:45,508 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:45,541 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:45,575 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:45,579 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:22:45,720 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:22:45,721 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:22:47,743 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:22:47,753 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/checkout
+2025-02-12 18:23:12,589 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:23:14,906 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:23:17,339 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:23:20,095 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:23:22,350 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:24:00,718 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:24:40,257 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:25:15,980 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:25:19,233 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/catalog#
+2025-02-12 18:25:19,646 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:25:19,926 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:25:19,929 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:25:24,582 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:25:24,601 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:25:26,670 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:25:26,718 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/catalog#
+2025-02-12 18:26:13,496 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:26:15,741 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:26:17,971 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:26:20,597 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:26:22,884 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:27:00,510 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:27:36,598 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:28:12,391 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:28:13,747 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/about
+2025-02-12 18:28:13,985 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:28:14,192 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:28:14,193 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:28:15,448 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:28:15,448 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:28:17,468 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:28:18,595 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/about
+2025-02-12 18:28:38,084 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/catalog
+2025-02-12 18:28:38,514 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:28:38,742 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:28:38,744 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:28:40,566 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:28:40,640 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:28:42,662 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:28:44,764 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/catalog
+2025-02-12 18:29:27,306 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:29:29,569 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:29:32,129 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:29:34,367 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:29:36,605 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:30:14,015 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:30:49,753 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:31:25,737 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:31:27,119 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/faq
+2025-02-12 18:31:27,303 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:31:27,466 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:31:27,467 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:31:28,830 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:31:28,832 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:31:30,865 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:31:31,984 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/faq
+2025-02-12 18:31:50,648 - modules.crawler - INFO - Found 1 forms on http://localhost:3000/support
+2025-02-12 18:31:50,898 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:31:51,076 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:31:51,079 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:31:52,340 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:31:52,351 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:31:54,371 - modules.crawler - WARNING - Error extracting endpoints from form submission: Failed to extract endpoints: 'method'
+2025-02-12 18:31:55,401 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/support
+2025-02-12 18:32:15,531 - modules.crawler - INFO - Found 2 forms on http://localhost:3000/checkout#
+2025-02-12 18:32:16,550 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:32:16,876 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:17,167 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:18,022 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:32:18,468 - modules.browser_automation - INFO - Populated tel field with mock data
+2025-02-12 18:32:18,759 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:18,788 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:18,823 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:18,880 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:18,883 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:32:19,020 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:32:19,021 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:32:21,064 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:21,889 - modules.browser_automation - WARNING - Error populating field: 'element'
+2025-02-12 18:32:22,175 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:22,442 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:22,837 - modules.browser_automation - INFO - Populated email field with mock data
+2025-02-12 18:32:23,187 - modules.browser_automation - INFO - Populated tel field with mock data
+2025-02-12 18:32:23,451 - modules.browser_automation - INFO - Populated text field with mock data
+2025-02-12 18:32:23,470 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:23,497 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:23,534 - modules.browser_automation - WARNING - Error populating field: Message: invalid element state
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x00346DA3]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x00344E44]
+	(No symbol) [0x003721A4]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:23,537 - modules.browser_automation - INFO - Successfully populated form fields
+2025-02-12 18:32:23,632 - modules.browser_automation - INFO - Form submitted via button click
+2025-02-12 18:32:23,633 - modules.browser_automation - INFO - Successfully submitted form
+2025-02-12 18:32:25,687 - modules.browser_automation - WARNING - Error handling forms: Alert Text: Please fill in all required fields
+Message: unexpected alert open: {Alert text : Please fill in all required fields}
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x0038BD54]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:25,691 - modules.crawler - INFO - Exploring clickable elements on http://localhost:3000/checkout#
+2025-02-12 18:32:45,810 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:48,065 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:50,644 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:52,861 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:32:55,077 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.196); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B373]
+	(No symbol) [0x00310C3D]
+	(No symbol) [0x00312F2C]
+	(No symbol) [0x0038C207]
+	(No symbol) [0x00371F0C]
+	(No symbol) [0x0038B49E]
+	(No symbol) [0x00371CA6]
+	(No symbol) [0x003431D5]
+	(No symbol) [0x0034435D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x00433E18]
+	(No symbol) [0x00433FB6]
+	(No symbol) [0x004266F0]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:33:33,541 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Element not clickable after waiting
+2025-02-12 18:33:59,720 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,790 - modules.crawler - WARNING - Error interacting with element: Failed to click element: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,796 - modules.browser_automation - WARNING - Error getting page links: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,807 - modules.crawler - ERROR - Error crawling http://localhost:3000/receipts/lookup: Failed to load page http://localhost:3000/receipts/lookup: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,819 - modules.crawler - ERROR - Error crawling http://localhost:3000/cart: Failed to load page http://localhost:3000/cart: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,825 - modules.crawler - ERROR - Error crawling http://localhost:3000/about#: Failed to load page http://localhost:3000/about#: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,834 - modules.crawler - ERROR - Error crawling http://localhost:3000/faq#: Failed to load page http://localhost:3000/faq#: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,841 - modules.crawler - ERROR - Error crawling http://localhost:3000/support#: Failed to load page http://localhost:3000/support#: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004A74A3+25091]
+	(No symbol) [0x0042DC04]
+	(No symbol) [0x0030B1E9]
+	(No symbol) [0x0034256B]
+	(No symbol) [0x00371D7A]
+	(No symbol) [0x0036D851]
+	(No symbol) [0x0036CDE4]
+	(No symbol) [0x002E313D]
+	(No symbol) [0x002E368E]
+	(No symbol) [0x002E3B1D]
+	GetHandleVerifier [0x007A07C3+3142947]
+	GetHandleVerifier [0x007B1A2B+3213195]
+	GetHandleVerifier [0x007AC412+3191154]
+	GetHandleVerifier [0x00548720+685184]
+	(No symbol) [0x00436E1D]
+	(No symbol) [0x002E2E10]
+	(No symbol) [0x002E29C0]
+	GetHandleVerifier [0x0081F20C+3661676]
+	BaseThreadInitThunk [0x775DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777A809E+286]
+	RtlGetAppContainerNamedObjectPath [0x777A806E+238]
+
+2025-02-12 18:34:01,867 - modules.reporting - INFO - Report generated successfully at reports\endpoints.json
+2025-02-12 18:34:01,869 - __main__ - INFO - Crawl completed successfully

@@ -13,17 +13,25 @@ class BrowserController:
     def __init__(self, config):
         self.logger = logging.getLogger(__name__)
         self.config = config
-        self.setup_browser()
-        self.form_handler = FormHandler(self)
+        self.setup_browser()# Import here to avoid circular imports
+        self.form_handler = FormHandler(logger=self.logger)
 
     def handle_forms(self):
         """Find and interact with all forms on the page"""
         forms_data = []
         try:
-            # Find all forms
-            forms = self.form_handler.find_forms()
+            # Find all forms using Selenium directly
+            form_elements = self.driver.find_elements("tag name", "form")
             
-            for form in forms:
+            for form in form_elements:
+                form_data = {
+                    "element": form,
+                    "method": form.get_attribute("method") or "get",  # Add this line
+                    "action": form.get_attribute("action") or "",     # Add this line
+                    "inputs": self.form_handler._analyze_form_fields(form),
+                    "submit_button": self.form_handler._find_submit_button(form)
+                }
+                
                 form_result = {
                     "success": False,
                     "network_events": []
@@ -33,12 +41,15 @@ class BrowserController:
                 current_url = self.driver.current_url
                 
                 # Try to populate and submit the form
-                if self.form_handler.populate_form(form):
+                if self.form_handler._populate_form(form_data):
+                    self.logger.info("Successfully populated form fields")
+                    
                     # Clear existing network logs before submission
                     self.driver.get_log('performance')
                     
                     # Submit the form
-                    if self.form_handler.submit_form(form):
+                    if self.form_handler._submit_form(form_data):
+                        self.logger.info("Successfully submitted form")
                         # Wait for network activity to settle
                         time.sleep(2)
                         
@@ -48,6 +59,10 @@ class BrowserController:
                         
                         # If form submission caused navigation, note it
                         form_result["caused_navigation"] = current_url != self.driver.current_url
+                    else:
+                        self.logger.warning("Failed to submit form")
+                else:
+                    self.logger.warning("Failed to populate form fields")
                 
                 forms_data.append(form_result)
                 
@@ -55,6 +70,7 @@ class BrowserController:
             self.logger.warning(f"Error handling forms: {str(e)}")
             
         return forms_data
+
 
     def setup_browser(self):
         try:

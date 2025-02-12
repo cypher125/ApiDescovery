@@ -30,18 +30,59 @@ class Crawler:
                 # Load page and capture network traffic
                 self.browser.load_page(url)
                 
-                # Find and interact with elements
+                # First, check if there are any forms on the page
+                forms = self.browser.driver.find_elements("tag name", "form")
+                if forms:
+                    self.logger.info(f"Found {len(forms)} forms on {url}")
+                    # Handle each form individually
+                    for form_idx, form in enumerate(forms):
+                        # Reload page for each form to ensure clean state
+                        if form_idx > 0:
+                            self.browser.load_page(url)
+                        
+                        try:
+                            form_results = self.browser.handle_forms()
+                            for result in form_results:
+                                if result["success"]:
+                                    try:
+                                        # Extract endpoints from form submission network events
+                                        endpoints = self.extractor.extract(result["network_events"])
+                                        if endpoints:
+                                            discovered_endpoints.extend(endpoints)
+                                            self.logger.info(f"Found endpoints from form submission on {url}")
+                                    except Exception as e:
+                                        self.logger.warning(f"Error extracting endpoints from form submission: {str(e)}")
+                                    
+                                    # Reload page to continue exploration regardless of endpoint extraction
+                                    self.browser.load_page(url)
+                        except Exception as e:
+                            self.logger.warning(f"Error processing form: {str(e)}")
+                            # Continue with the next form or page exploration
+                            continue
+                
+                # Always continue with regular element interactions
+                self.logger.info(f"Exploring clickable elements on {url}")
                 elements = self.browser.find_clickable_elements()
                 for element in elements:
                     try:
                         self.browser.click_element(element)
                         # Capture network traffic after interaction
                         network_events = self.network_logger.capture_requests()
-                        # Extract endpoints from captured traffic
-                        endpoints = self.extractor.extract(network_events)
-                        discovered_endpoints.extend(endpoints)
+                        try:
+                            # Extract endpoints from captured traffic
+                            endpoints = self.extractor.extract(network_events)
+                            if endpoints:
+                                discovered_endpoints.extend(endpoints)
+                        except Exception as e:
+                            self.logger.warning(f"Error extracting endpoints from click: {str(e)}")
+                            continue
+                            
+                        # If the click caused navigation, reload the original page
+                        if url != self.browser.driver.current_url:
+                            self.browser.load_page(url)
                     except Exception as e:
                         self.logger.warning(f"Error interacting with element: {str(e)}")
+                        continue
                 
                 # Find new links to crawl
                 new_urls = self.browser.get_page_links()
@@ -51,5 +92,7 @@ class Crawler:
                 
             except Exception as e:
                 self.logger.error(f"Error crawling {url}: {str(e)}")
+                # Continue with next URL even if current one fails
+                continue
         
         return discovered_endpoints

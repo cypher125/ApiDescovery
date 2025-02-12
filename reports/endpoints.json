@@ -1,5 +1,5 @@
 {
-  "total_endpoints": 4,
+  "total_endpoints": 2,
   "endpoints": [
     {
       "method": "GET",
@@ -8,9 +8,9 @@
         "Accept": "application/json, text/plain, */*",
         "Referer": "http://localhost:3000/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "sec-ch-ua": "",
+        "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Google Chrome\";v=\"132\"",
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"\""
+        "sec-ch-ua-platform": "\"Windows\""
       },
       "postData": null
     },
@@ -21,35 +21,9 @@
         "Accept": "application/json, text/plain, */*",
         "Referer": "http://localhost:3000/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "sec-ch-ua": "",
+        "sec-ch-ua": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Google Chrome\";v=\"132\"",
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"\""
-      },
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "http://localhost:8000/api/v1/textbooks/filters/",
-      "headers": {
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "http://localhost:3000/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "sec-ch-ua": "",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"\""
-      },
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "http://localhost:8000/api/v1/textbooks/",
-      "headers": {
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "http://localhost:3000/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "sec-ch-ua": "",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"\""
+        "sec-ch-ua-platform": "\"Windows\""
       },
       "postData": null
     }
